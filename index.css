@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
 
 html {
-    box-sizing: border-box;
-    font-size: 16px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
   
   *, *:before, *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
   
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
   
   ol, ul {
-    list-style: none;
+  list-style: none;
 }
   
   img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 :root {
-  --dark: #000000;
-  --light: #FFFFFF;
+ --dark: #000000;
+ --light: #FFFFFF;
 }
 
 body {
-   background-color: #CE4B1C;
-   font-family: 'Barlow', sans-serif;
+  background-color: #CE4B1C;
+  font-family: 'Barlow', sans-serif;
 }
 
 .container {
@@ -78,7 +78,7 @@ body {
  left: 490px;
  top: 43px;
  font-family: 'Barlow';
-font-style: normal;
+ font-style: normal;
  font-weight: 700;
  font-size: 16px;
  line-height: 19px;
