@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+  ol, ul {
+    list-style: none;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+  --dark: #000000;
+  --light: #FFFFFF;
+}
+
+body {
+   background-color: #CE4B1C;
+   font-family: 'Barlow', sans-serif;
+}
+
+.container {
+  max-width: 1193px;
+}
+
+.home {
+ position: absolute;
+ width: 42px;
+ height: 11px;
+ left: 80px;
+ top: 43px;
+ font-family: 'Barlow';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 19px;
+ color: var(--light);
+}
+
+.search-txt {
+ position: absolute;
+ width: 220px;
+ height: 27px;
+ left: 140px;
+ top: 39px;
+ background: rgba(255, 255, 255, 0.5);
+ border-radius: 95px;
+}
+
+.search-btn {
+ position: absolute;
+ width: 18px;
+ height: 18px;
+ left: 329.67px;
+ top: 38.83px;
+ color: var(--light);
+}
+
+.about-mini {
+ position: absolute;
+ width: 84px;
+ height: 19px;
+ left: 490px;
+ top: 43px;
+ font-family: 'Barlow';
+font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 19px;
+ color: var(--light);
+}
+
+.haading {
+ position: absolute;
+ width: 263px;
+ height: 53px;
+ left: 81px;
+ top: 145px;
+ font-family: 'Barlow';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 44px;
+ line-height: 53px;
+ color: var(--dark);
+}
+
+.text {
+ position: absolute;
+ height: 36px;
+ left: 81px;
+ top: 215px;
+ font-family: 'Barlow';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 30px;
+ line-height: 36px;
+ color: var(--dark);
+}
+
+.sketchy-description {
+ position: absolute;
+ width: 358px;
+ height: 156px;
+ left: 81px;
+ top: 268px;
+ font-family: 'Barlow';
+ font-style: normal;
+ font-weight: 300;
+ font-size: 20px;
+ line-height: 24px;
+ color: var(--dark);
+}
+
+.picture {
+ position: absolute;
+ width: 323px;
+ height: 210px;
+ left: 80px;
+ top: 441px;
+ background: rgba(255, 255, 255, 0.5);
+}
+
+.price {
+  position: absolute;
+ width: 208px;
+ height: 148px;
+ left: 146px;
+ top: 466px;
+ font-family: 'Barlow';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 30px;
+ line-height: 36px;
+ color: var(--dark);
+}
+
+.position-absolute {
+ position: absolute;
+ width: 667px;
+ height: 720px;
+ left: 682px;
+ top: 0px;
+ background: url(.png), #C4C4C4;
+}
